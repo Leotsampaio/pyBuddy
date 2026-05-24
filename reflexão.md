@@ -3,14 +3,14 @@
 ## 1. Decisões de design do prompt
 
 **Por que escolhi esse domínio?**
-[Escreva aqui sua justificativa — ex: relevância para o grupo de IA, domínio que você conhece, utilidade prática...]
+escolhi o tutor de python para iniciantes, pois hoje em dia saber uma linguagem de programação é quase obrigatorio, então pensando nisso, esse agente facilitaria o aprendizado disso.
 
 **Quais elementos do system prompt foram mais difíceis de definir?**
-[Ex: delimitar o escopo, definir o tom, escrever o exemplo few-shot...]
+delimitar o escopo, definir o tom e escrever o exemplo few-shot
 
 **O que você testou e mudou?**
-[Ex: "A primeira versão do prompt não tinha o exemplo de conversa, e o agente ficava muito
-formal. Adicionei o few-shot e o tom ficou mais próximo do que eu queria."]
+A primeira versão do prompt não tinha o exemplo de conversa, e o agente ficava muito
+formal. Adicionei o few-shot e o tom ficou mais próximo do que eu queria.
 
 ---
 
@@ -18,7 +18,7 @@ formal. Adicionei o few-shot e o tom ficou mais próximo do que eu queria."]
 
 **O que funcionou bem:**
 
-Conversa de exemplo:
+Conversas comuns
 ```
 Você: O que é uma lista em Python?
 PyBuddy: Lista é uma coleção ordenada de valores que você pode mudar depois de criar.
@@ -26,24 +26,19 @@ PyBuddy: Lista é uma coleção ordenada de valores que você pode mudar depois 
          item pelo índice, como frutas[0] que retorna "maçã". Tenta criar uma lista com
          suas comidas favoritas e me mostra!
 ```
-[Comente por que funcionou — o agente seguiu o tom? Usou exemplo concreto? Incentivou prática?]
+
+funcionou bem porque ta dando bons exemplos e de forma amigável
 
 **O que não funcionou:**
 
-Conversa de exemplo:
-```
-Você: [sua pergunta aqui]
-PyBuddy: [resposta problemática aqui]
-```
-[Comente o que causou o problema — ambiguidade no prompt? Falta de instrução? Limitação do modelo?]
+Poderia ter uma conexão com uma interface html que acabou não sendo feito.
 
 ---
 
 ## 3. O que eu faria com mais tempo
 
-[Ex: Adicionaria uma ferramenta de execução de código para o agente poder testar os
-exemplos em tempo real. Ou: Refinaria o prompt para o agente detectar o nível do aluno
-automaticamente nas primeiras mensagens.]
+Adicionaria uma ferramenta de execução de código para o agente poder testar os
+exemplos em tempo real. 
 
 ---
 
