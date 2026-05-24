@@ -1,0 +1,12 @@
+# Nunca suba a chave de API para o GitHub
+.env
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
